@@ -27,7 +27,7 @@ export default function Signup() {
     setLoading(true);
 
     try {
-      const res = await API.post("/auth/signup", {
+      await API.post("/auth/signup", {
         username,
         email,
         password
