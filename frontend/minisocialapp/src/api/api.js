@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mini-social-app-1ywb.onrender.com"
+  baseURL: "https://mini-social-app-1ywb.onrender.com/api"
 
 });
 
